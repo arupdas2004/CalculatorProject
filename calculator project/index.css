@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: rgb(233, 241, 11);
+    color: rgb(15, 15, 15);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#calci{
+    border: 2px;
+    border-style: solid;
+    border-color: rgb(202, 56, 56);
+    border-radius: 5px;
+    width: 201px;
+
+}
+
+#display{
+    margin: 10px ;
+    width: 85%;
+    height: 39px;
+    border-color: rgb(202, 56, 56);
+}
+
+.but{
+    display: flex;
+    justify-content: center;
+    margin: 7px;
+    flex-wrap: wrap;
+    background-color: rgb(253, 253, 254);
+}
+
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 1px;
+    background-color: rgb(7, 3, 1);
+    color: rgb(234, 255, 0);
+}

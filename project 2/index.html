@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bat Ball Game</title>
+</head>
+<style>
+    body{
+        text-align:center;
+    }
+</style>
+<body>
+    <h1> <b>Bat Ball Stump Game</b></h1>
+    <button onclick="console.log('You have chosen Bat');
+    let randomNumber = Math.random() * 3;
+    let computerChoose;
+
+    if (randomNumber>0 && randomNumber<=1){
+         computerChoose = 'Bat';
+    }
+    else if(randomNumber>1 && randomNumber<=2){
+         computerChoose = 'Ball';
+    }
+    else{
+         computerChoose = 'Stump';
+    }
+
+    let res;
+    if(computerChoose==='Ball'){
+        res = 'You won';
+    }
+    else if(computerChoose==='Bat'){
+        res = 'Tie Occured';
+    }
+    else{
+        res = 'Computer won';
+    }
+    alert(`You have chosen Bat. Computer has chosen ${computerChoose} and ${res}`);
+    ">Bat</button>
+
+
+
+
+    <button onclick = "randomNumber = Math.random() * 3;
+
+    if (randomNumber>0 && randomNumber<=1){
+         computerChoose = 'Bat';
+    }
+    else if(randomNumber>1 && randomNumber<=2){
+         computerChoose = 'Ball';
+    }
+    else{
+         computerChoose = 'Stump';
+    }
+
+    if(computerChoose==='Bat'){
+        res = 'Computer won';
+    }
+    else if(computerChoose==='Ball'){
+        res = 'Tie Occured';
+    }
+    else{
+        res = 'You win';
+    }
+    alert(`You have chosen Ball. Computer has chosen ${computerChoose} and ${res}`);
+    ">Ball</button>
+
+
+
+
+    <button onclick="randomNumber = Math.random() * 3;
+
+    if (randomNumber>0 && randomNumber<=1){
+         computerChoose = 'Bat';
+    }
+    else if(randomNumber>1 && randomNumber<=2){
+         computerChoose = 'Ball';
+    }
+    else{
+         computerChoose = 'Stump';
+    }
+
+    if(computerChoose==='Bat'){
+        res = 'You won';
+    }
+    else if(computerChoose==='Ball'){
+        res = 'Computer won'
+    }
+    else{
+        res = 'Tie occured';
+    }
+    alert(`You have chosen Stump. Computer has chosen ${computerChoose} and ${res}`);">Stump</button>
+</body>
+</html>
